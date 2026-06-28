@@ -1,0 +1,51 @@
+.pagination{
+    margin-top:30px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    flex-wrap:wrap;
+
+    gap:20px;
+}
+
+.pagination select{
+
+    margin:0 10px;
+
+    padding:6px;
+}
+
+.page-buttons{
+
+    display:flex;
+
+    gap:15px;
+
+    align-items:center;
+}
+
+.page-buttons button{
+
+    padding:8px 16px;
+
+    border:none;
+
+    background:#2563eb;
+
+    color:white;
+
+    border-radius:6px;
+
+    cursor:pointer;
+}
+
+.page-buttons button:disabled{
+
+    background:#ccc;
+
+    cursor:not-allowed;
+}

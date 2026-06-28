@@ -1,0 +1,54 @@
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: white;
+}
+
+.user-table th {
+  background: #2563eb;
+  color: white;
+  padding: 12px;
+}
+
+.user-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  white-space: nowrap;
+}
+
+.user-table tr:hover {
+  background: #f8fafc;
+}
+
+.edit-btn {
+  background: #22c55e;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  margin-right: 8px;
+  margin-top:4px;
+}
+
+.delete-btn {
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  margin-top:4px;
+}
+
+.user-table th {
+  cursor: pointer;
+  user-select: none;
+}
+
+.user-table th:hover {
+  background: #1d4ed8;
+}
+
+.table-container{
+    overflow-x:auto;
+}

@@ -1,0 +1,19 @@
+.filter-modal {
+  width: 420px;
+  background: white;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.filter-modal h2 {
+  margin-bottom: 20px;
+}
+
+.filter-modal input,
+.filter-modal select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
